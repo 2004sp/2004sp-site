@@ -123,6 +123,14 @@ a.rsc-link:hover {
   width: 80%;
 }
 
+.rsc-logo-text {
+  font-size: clamp(52px, 16vw, 80px);
+  line-height: 1;
+  margin: 4px 0;
+  padding: 0;
+  letter-spacing: 3px;
+}
+
 .rsc-reg {
   font-size: 10px;
   vertical-align: super;

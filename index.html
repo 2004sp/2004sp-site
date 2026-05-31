@@ -93,8 +93,10 @@
   </script>
 
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/os-font.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
   <script src="/js/site.js" defer></script>
+  <script src="/os-font.js" defer></script>
 </head>
 <body>
   <div class="rsc-container">
@@ -104,8 +106,7 @@
 
       <!-- ── Logo / Hero ─────────────────────────────────────── -->
       <div class="rsc-hero">
-        <img class="rsc-logo" src="/res/runescape.png" alt="RuneScape">
-        <span class="rsc-reg">®</span>
+        <p id="rsc-logo-text" class="rsc-logo-text">2004sp</p>
         <p class="rsc-hero-tagline">2004SP Progressive</p>
         <p class="rsc-hero-sub">Autonomous AI bots · Full skill progression · Dynamic hiscores · Built on the Lost City 2004 engine</p>
       </div>
@@ -331,5 +332,26 @@
 
     <div class="rsc-border-bottom rsc-border-bar"></div>
   </div><!-- /.rsc-container -->
+  <script>
+  (function () {
+    var effects = ['flash1','flash2','flash3','glow1','glow2','glow3','wave','wave2','shake','yellow','cyan','green','purple','red','white'];
+    var perCharEffects = ['wave','wave2','shake'];
+    var effect = effects[Math.floor(Math.random() * effects.length)];
+    var el = document.getElementById('rsc-logo-text');
+    el.classList.add('os-font', 'os-font-' + effect);
+    if (perCharEffects.indexOf(effect) !== -1) {
+      el.innerHTML = el.textContent.split('').map(function(ch) {
+        return '<span>' + ch + '</span>';
+      }).join('');
+      el.classList.add('os-font-spanified');
+      var spans = el.querySelectorAll('span');
+      spans.forEach(function(span, i) {
+        span.style['animation-delay'] = effect === 'shake'
+          ? ((spans.length / 100) * i) / 100 + 's'
+          : 0.075 * i + 's';
+      });
+    }
+  })();
+  </script>
 </body>
 </html>
