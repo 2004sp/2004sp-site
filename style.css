@@ -715,6 +715,10 @@ a.rsc-link:hover {
     margin: 6px;
   }
 
+  .rsc-stone-button:nth-child(5) {
+    margin-left: 6px;
+  }
+
   .rsc-play-button {
     margin: 8px;
   }
