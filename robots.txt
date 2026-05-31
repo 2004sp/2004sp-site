@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://2004sp.github.io/sitemap.xml
