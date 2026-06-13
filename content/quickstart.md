@@ -17,7 +17,7 @@ Install both, then continue below.
 
 Check out our launcher for the easiest install in just a few minutes.
 
-![2004sp Launcher](https://github.com/2004sp/2004sp-launcher/blob/main/screenshot.png?raw=true)
+[2004sp Launcher](https://github.com/2004sp/2004sp-launcher/blob/main/screenshot.png?raw=true)
 
 [github.com/2004sp/2004sp-launcher/releases](https://github.com/2004sp/2004sp-launcher/releases)
 

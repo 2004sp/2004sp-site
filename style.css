@@ -386,6 +386,12 @@ a.rsc-link:hover {
   text-decoration: underline;
 }
 
+.rsc-content-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .rsc-content-body code {
   background: #1a1000;
   border: 1px solid #3a2410;

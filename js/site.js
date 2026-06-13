@@ -1,8 +1,9 @@
 const FLASH_IMAGES = [
-  '/screenshots/homepage-original.png',
-  '/screenshots/game-select-small.png',
-  '/screenshots/hiscores-small.png',
-  '/screenshots/hiscores-full.png',
+  '/res/custom1.png',
+  '/res/custom2.png',
+  '/res/custom3.png',
+  '/res/custom4.png',
+  '/res/custom5.png',
 ];
 
 async function showContent(name) {
