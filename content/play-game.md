@@ -13,6 +13,12 @@ Install these before running the setup script:
 
 ## Install
 
+Check out our launcher for the easiest install in just a few minutes.
+
+![2004sp Launcher](https://github.com/2004sp/2004sp-launcher/blob/main/screenshot.png?raw=true)
+
+[github.com/2004sp/2004sp-launcher/releases](https://github.com/2004sp/2004sp-launcher/releases)
+
 Download the all-in-one install script from the releases page — it clones the repository, pulls the server files, and sets everything up automatically:
 
 [github.com/2004sp/2004sp-progressive/releases/tag/install-script](https://github.com/2004sp/2004sp-progressive/releases/tag/install-script)

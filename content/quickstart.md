@@ -13,6 +13,14 @@ You need two things installed before running the script:
 
 Install both, then continue below.
 
+## Install with the 2004sp-launcher
+
+Check out our launcher for the easiest install in just a few minutes.
+
+![2004sp Launcher](https://github.com/2004sp/2004sp-launcher/blob/main/screenshot.png?raw=true)
+
+[github.com/2004sp/2004sp-launcher/releases](https://github.com/2004sp/2004sp-launcher/releases)
+
 ## Install with the AIO Script
 
 Download and run the all-in-one install script from the releases page:
